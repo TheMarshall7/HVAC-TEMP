@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional HVAC Services. Fast, reliable, and licensed.">
+    <title data-config="business_name">HVAC Services</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;900&family=Plus+Jakarta+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Theme Engine -->
+    <script src="config.js"></script>
+    <script src="template-engine.js" defer></script>
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 1. TOP BAR -->
+    <div class="top-bar">
+        <div class="container text-center">
+            Serving <span data-config="service_area">Your Area</span> | Call 24/7 for Emergency Service: <a href="#" data-config="phone">Phone Number</a>
+        </div>
+    </div>
+
+    <!-- 2. HEADER NAVIGATION -->
+    <header>
+        <nav class="container">
+            <a href="index.html" class="logo" id="brand-logo">
+                <!-- Injected via config.logo_url or business_name -->
+                HVAC Pro
+            </a>
+            <div class="nav-links">
+                <a href="#services">Services</a>
+                <a href="#about">About</a>
+                <a href="#reviews">Reviews</a>
+            </div>
+            <div class="header-contact">
+                <div class="header-phone-wrapper">
+                    <svg width="24" height="24" viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+                    <a href="#" class="header-phone" data-config="phone">(555) 555-5555</a>
+                </div>
+                <a href="#booking" class="btn btn-primary">Book Now</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- 3. HERO (CONVERSION FOCUSED) -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content reveal-up">
+                <h1>Fast & Reliable HVAC Services in <span data-config="city">Your City</span></h1>
+                <p class="hero-sub">Trust, speed, and relief when you need it most. Get emergency repairs, new installations, and expert maintenance today.</p>
+                
+                <a href="#booking" class="btn">Request Service</a>
+                <div style="margin-top: 1rem; margin-left: 0.5rem;">
+                    or call <a href="#" style="font-weight: bold; text-decoration: underline;" data-config="phone">(555) 555-5555</a>
+                </div>
+            </div>
+
+            <!-- MANDATORY FORM BLOCK -->
+            <div class="hero-form-box reveal-up" id="booking">
+                <h3>Request Service</h3>
+                <!-- Paste GoHighLevel form embed code here -->
+                <!-- START GHL EMBED -->
+                <iframe
+                    src="https://api.leadconnectorhq.com/widget/form/c6PhTj3obI1V4iMwAUU5"
+                    style="width:100%;border:none;border-radius:3px"
+                    class="ghl-iframe"
+                    scrolling="no"
+                    id="inline-c6PhTj3obI1V4iMwAUU5" 
+                    data-layout="{'id':'INLINE'}"
+                    data-trigger-type="alwaysShow"
+                    data-trigger-value=""
+                    data-activation-type="alwaysActivated"
+                    data-activation-value=""
+                    data-deactivation-type="neverDeactivate"
+                    data-deactivation-value=""
+                    data-form-name="Contact Us"
+                    data-height="580"
+                    data-layout-iframe-id="inline-c6PhTj3obI1V4iMwAUU5"
+                    data-form-id="c6PhTj3obI1V4iMwAUU5"
+                    title="Contact Us"
+                >
+                </iframe>
+                <script src="https://link.msgsndr.com/js/form_embed.js"></script>
+                <!-- END GHL EMBED -->
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. TRUST SECTION -->
+    <section class="trust-banner reveal-up">
+        <div class="container">
+            <div class="badges-container" id="trust-badges">
+                <!-- Badges injected via JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. SERVICES SECTION -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Heating & Cooling Services</h2>
+                <p>Comprehensive solutions tailored for <span data-config="city">Your City</span> homes.</p>
+            </div>
+            <div class="services-grid" id="services-grid">
+                <!-- Services injected via JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. WHY CHOOSE US & ABOUT -->
+    <section class="container split-section" id="about">
+        <div class="split-image reveal-up" style="position: relative;">
+            <img src="./images/tech.png" alt="HVAC Technician Working" onerror="this.src='https://images.unsplash.com/photo-1581092921461-eab62e97a780?auto=format&fit=crop&w=800&q=80'">
+            <div class="experience-badge">
+                <span class="years">15+</span>
+                <span class="exp-text">Years of<br>Experience</span>
+            </div>
+        </div>
+        <div class="split-content reveal-up">
+            <span class="pre-heading">YOUR LOCAL EXPERTS</span>
+            <h2>Why Choose <span data-config="business_name">Us</span>?</h2>
+            <p class="about-lead" data-config="about_text">
+                Your trusted local HVAC experts. We prioritize your comfort with fast response times and dependable service.
+            </p>
+            
+            <ul class="why-us-list" id="why-us-list">
+                <!-- Injected via JS -->
+            </ul>
+            
+            <a href="#booking" class="btn btn-primary" style="margin-top: 1rem;">Schedule Now</a>
+        </div>
+    </section>
+
+    <!-- 7. TESTIMONIALS -->
+    <section class="testimonials" id="reviews">
+        <div class="container">
+            <div class="section-title">
+                <h2>What Our Customers Say</h2>
+                <p>Real reviews from homeowners in <span data-config="city">Your City</span>.</p>
+            </div>
+            <div class="reviews-grid" id="reviews-grid">
+                <!-- Reviews injected via JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. CTA SECTION -->
+    <section class="cta-section">
+        <div class="container reveal-up">
+            <h2>Don't Sweat Another Day!</h2>
+            <p>Our licensed technicians are ready to restore your home's comfort.</p>
+            <a href="#booking" class="btn">Get Fast Service Now</a>
+        </div>
+    </section>
+
+    <!-- 9. FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4 data-config="business_name">HVAC Company</h4>
+                    <p data-config="about_text">Leading the area in comfort and reliable heating & cooling solutions.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Us</h4>
+                    <ul>
+                        <li>Call: <a href="#" data-config="phone">(555) 555-5555</a></li>
+                        <li>Email: <a href="#" data-config="email">service@hvac.com</a></li>
+                        <li>Serving: <span data-config="service_area">Area</span></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#booking">Book Appointment</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; <span id="year"></span> <span data-config="business_name">Business Name</span>. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

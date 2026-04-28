@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional {{SERVICE_NAME}} in {{CITY}}. Fast, reliable, and licensed.">
+    <!-- Replace the title below with dynamic variables via your server/GHL if generating automatically -->
+    <title>{{SERVICE_NAME}} in {{CITY}} | <span data-config="business_name">HVAC Services</span></title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;900&family=Plus+Jakarta+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Theme Engine -->
+    <script src="config.js"></script>
+    <script src="template-engine.js" defer></script>
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- TOP BAR -->
+    <div class="top-bar">
+        <div class="container text-center">
+            Serving <span data-config="service_area">Your Area</span> | Call 24/7 for Emergency Service: <a href="#" data-config="phone">Phone Number</a>
+        </div>
+    </div>
+
+    <!-- HEADER NAVIGATION -->
+    <header>
+        <nav class="container">
+            <a href="index.html" class="logo" id="brand-logo">
+                HVAC Pro
+            </a>
+            <div class="nav-links">
+                <a href="#service-details">Service Details</a>
+                <a href="#reviews">Reviews</a>
+            </div>
+            <div class="header-contact">
+                <a href="#" class="header-phone" data-config="phone">(555) 555-5555</a>
+                <a href="#booking" class="btn btn-primary">Book Now</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- SERVICE SPECIFIC HERO -->
+    <section class="hero" style="min-height: 60vh; padding: 80px 0;">
+        <div class="container">
+            <div class="hero-content">
+                <!-- Example of specific local SEO optimization -->
+                <h1>Top-Rated {{SERVICE_NAME}} in <span data-config="city">Your City</span></h1>
+                <p class="hero-sub">Looking for reliable {{SERVICE_NAME}}? We are local experts providing fast, affordable, and honest service when you need it most.</p>
+                
+                <a href="#booking" class="btn">Get a Free Estimate</a>
+            </div>
+
+            <!-- MANDATORY FORM BLOCK -->
+            <div class="hero-form-box" id="booking">
+                <h3>Request {{SERVICE_NAME}}</h3>
+                <!-- Paste GoHighLevel form embed code here -->
+                <div class="ghl-placeholder">
+                    GoHighLevel Form Embed Goes Here<br>
+                    <small>Pre-fill service with {{SERVICE_NAME}}</small>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TRUST SECTION -->
+    <section class="trust-banner">
+        <div class="container">
+            <div class="badges-container" id="trust-badges">
+                <!-- Badges injected via JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- SEO CONTENT SECTION -->
+    <section class="container split-section" id="service-details">
+        <div class="split-content">
+            <h2>Why Choose Us for your {{SERVICE_NAME}}?</h2>
+            <p>
+                When your system breaks down, you need professionals who understand the specific demands of <strong data-config="city">Your City</strong>'s climate. Our certified technicians specialize in <strong>{{SERVICE_NAME}}</strong>, ensuring that your home remains comfortable and efficient.
+            </p>
+            <p>
+                We use industry-leading tools and parts, backing our work with a 100% satisfaction guarantee. Don't settle for "good enough" when it comes to your family's comfort.
+            </p>
+            
+            <ul class="why-us-list">
+                <li><svg width="24" height="24" viewBox="0 0 24 24" fill="var(--primary)"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg> Immediate dispatch</li>
+                <li><svg width="24" height="24" viewBox="0 0 24 24" fill="var(--primary)"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg> Flat-rate, transparent pricing</li>
+                <li><svg width="24" height="24" viewBox="0 0 24 24" fill="var(--primary)"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg> Licensed & Insured professionals</li>
+            </ul>
+        </div>
+        <div class="split-image">
+            <img src="./images/hero.png" alt="{{SERVICE_NAME}} Experts" onerror="this.style.display='none'">
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS REUSED -->
+    <section class="testimonials" id="reviews">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our <span data-config="city">Your City</span> Customers Love Us</h2>
+            </div>
+            <div class="reviews-grid" id="reviews-grid">
+                <!-- Reviews injected via JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA SECTION -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Ready for Your {{SERVICE_NAME}}?</h2>
+            <p>Call us today or fill out the form for fast, guaranteed service.</p>
+            <a href="#booking" class="btn">Schedule Now</a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4 data-config="business_name">HVAC Company</h4>
+                    <p data-config="about_text">Leading the area in comfort and reliable heating & cooling solutions.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li>Call: <a href="#" data-config="phone">(555) 555-5555</a></li>
+                        <li>Email: <a href="#" data-config="email">service@hvac.com</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Other Services</h4>
+                    <ul id="seo-links-placeholder">
+                        <li><a href="#">AC Repair</a></li>
+                        <li><a href="#">Furnace Installation</a></li>
+                        <li><a href="#">HVAC Maintenance</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        // Simple client-side replacement for demonstration of the SEO template
+        // In reality, this page would be cloned and built server-side or via GHL Workflows
+        document.addEventListener('DOMContentLoaded', () => {
+            const urlParams = new URLSearchParams(window.location.search);
+            const serviceName = urlParams.get('service') || 'AC Repair';
+            
+            document.body.innerHTML = document.body.innerHTML.replace(/{{SERVICE_NAME}}/g, serviceName);
+            document.title = document.title.replace(/{{SERVICE_NAME}}/g, serviceName);
+            
+            // Also replace {{CITY}} with configured city
+            setTimeout(() => {
+                const theCity = siteConfig ? siteConfig.city : 'Your City';
+                document.body.innerHTML = document.body.innerHTML.replace(/{{CITY}}/g, theCity);
+            }, 100);
+        });
+    </script>
+</body>
+</html>
