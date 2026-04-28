@@ -95,7 +95,7 @@ document.addEventListener("DOMContentLoaded", () => {
         reviewGrid.innerHTML = siteConfig.reviews.map(rev => {
             const stars = starSVG.repeat(rev.rating);
             return `
-            <div class="review-card">
+            <div class="review-card reveal-up">
                 <div class="stars">${stars}</div>
                 <p class="review-text">"${rev.text}"</p>
                 <div class="review-author">- ${rev.name}</div>
