@@ -1,77 +1,67 @@
 const siteConfig = {
     // 1. GLOBAL IDENTITY
-    business_name: "Apex Elite HVAC",
-    city: "Charlotte",
-    state: "NC",
-    service_area: "Charlotte Metro Area",
-    phone: "(555) 382-9921",
-    email: "service@apexelitehvac.com",
-    logo_text: "Apex Elite", // Used if logo_url is empty
+    business_name: "B.Knox Heating & Cooling LTD",
+    city: "Powell River",
+    state: "BC",
+    service_area: "Powell River Area",
+    phone: "(604) 555-0199",
+    email: "service@powellriverhvac.ca",
+    logo_text: "B.Knox Heating & Cooling", // Header brand text when no logo image is set
     logo_url: "", // e.g., "./images/logo.png"
 
     // 2. DESIGN SYSTEM & COLORS
-    primary_color: "#1e3a8a",   // Deep Trust Blue
-    secondary_color: "#dc2626", // Emergency Red
-    accent_color: "#facc15",    // Highlight Yellow
-    bg_color: "#f8fafc",        // Light Gray Background
-    text_color: "#1e293b",      // Dark Slate
+    primary_color: "#000000",   // Black
+    secondary_color: "#c0c0c0", // Silver
+    accent_color: "#e5e7eb",    // Light Silver highlight
+    bg_color: "#f5f5f5",        // Soft neutral background
+    text_color: "#111111",      // Near-black text
 
     // 3. SEO & TRUST DATA
-    google_maps_description: "Apex Elite HVAC is Charlotte's premier heating and cooling service provider. We offer fast, reliable, and licensed AC repair, furnace installation, and emergency HVAC services to keep your home comfortable year-round.",
+    google_maps_description: "Providing quality installations and service in the Powell River area. Trusted local experts for heating, ventilation, and air conditioning support across homes and businesses.",
     trust_badges: [
-        "Licensed & Insured",
-        "Fast Response",
-        "15+ Years Experience",
-        "Local Experts"
+        "Top Rated Service",
+        "Trusted Local Experts",
+        "Quality Installations",
+        "Local Powell River Service"
     ],
 
     // 4. SERVICES
     services_list: [
         {
-            title: "AC Repair & Install",
-            description: "Fast, reliable air conditioning repair and full-system replacements to beat the summer heat.",
+            title: "HVAC Installations",
+            description: "Professional installation of heating, cooling, and ventilation systems tailored to your property.",
             icon: "❄️"
         },
         {
-            title: "Heating Services",
-            description: "Keep your home warm with our expert furnace repair, maintenance, and installation.",
+            title: "Service & Maintenance",
+            description: "Routine inspections and maintenance to keep your system efficient and reliable year-round.",
             icon: "🔥"
         },
         {
-            title: "Routine Maintenance",
-            description: "Preventative tune-ups to extend the life of your unit and lower your energy bills.",
+            title: "Ventilation Solutions",
+            description: "Improve indoor air quality and comfort with practical ventilation upgrades and repairs.",
             icon: "🔧"
         },
         {
-            title: "Emergency HVAC",
-            description: "Available 24/7 for urgent breakdowns so your family is never left uncomfortable.",
+            title: "Local Support",
+            description: "Dependable local support in Powell River for residential and light commercial HVAC needs.",
             icon: "🚨"
         }
     ],
 
     // 5. WHY CHOOSE US
     why_us: [
-        "Same-Day Service Available",
-        "Upfront Flat-Rate Pricing",
-        "Certified & Background-Checked Techs",
-        "100% Satisfaction Guarantee"
+        "Providing quality installations and service in the Powell River area",
+        "Trusted by local contractors and industry pages",
+        "Focused on reliable workmanship and long-term performance",
+        "Community-first approach with responsive communication"
     ],
 
     // 6. TESTIMONIALS (For Auto Google Review feature)
     reviews: [
         {
-            name: "Sarah Jenkins",
-            text: "My AC died in the middle of July and they came out within two hours! Incredibly professional and fair pricing. Highly recommend.",
-            rating: 5
-        },
-        {
-            name: "Mark T.",
-            text: "Fast, honest, and reliable. The technician explained everything clearly without trying to upsell me. My go-to HVAC guys now.",
-            rating: 5
-        },
-        {
-            name: "Emily R.",
-            text: "Smooth installation of our new furnace. The team was respectful of our home and left the work area spotless.",
+            name: "Google Review",
+            text: "Excellent service and professional workmanship. The team was responsive and did quality work from start to finish.",
             rating: 5
         }
     ]

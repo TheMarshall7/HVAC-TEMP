@@ -464,7 +464,7 @@ nav.container {
 /* CTA SECTION */
 .cta-section {
   background: var(--secondary);
-  color: white;
+  color: #000;
   text-align: center;
   padding: 5rem 0;
   position: relative;
@@ -480,8 +480,9 @@ nav.container {
   -webkit-mask: url("data:image/svg+xml,%3Csvg viewBox='0 0 1200 120' preserveAspectRatio='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='%23ffffff' d='M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V95.8C59.71,118,137,117.89,200.74,96.34C242.06,82.47,282.8,70.51,321.39,56.44Z'/%3E%3C/svg%3E") no-repeat center bottom / 100% 100%;
   mask: url("data:image/svg+xml,%3Csvg viewBox='0 0 1200 120' preserveAspectRatio='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='%23ffffff' d='M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V95.8C59.71,118,137,117.89,200.74,96.34C242.06,82.47,282.8,70.51,321.39,56.44Z'/%3E%3C/svg%3E") no-repeat center bottom / 100% 100%;
 }
-.cta-section h2 { color: white; font-size: 2.5rem; margin-bottom: 1rem; }
-.cta-section .btn { background: white; color: var(--secondary); margin-top: 1.5rem; font-size: 1.2rem;}
+.cta-section h2 { color: #000; font-size: 2.5rem; margin-bottom: 1rem; }
+.cta-section p { color: #000; }
+.cta-section .btn { margin-top: 1.5rem; font-size: 1.2rem;}
 
 /* FOOTER */
 footer {
