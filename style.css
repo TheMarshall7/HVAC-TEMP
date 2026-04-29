@@ -543,6 +543,37 @@ footer {
 
 /* RESPONSIVE */
 @media (max-width: 900px) {
+  .top-bar {
+    font-size: 0.8rem;
+    padding: 8px 0;
+  }
+  nav.container {
+    height: auto;
+    min-height: 90px;
+    padding: 0.9rem 0;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.8rem;
+  }
+  .logo {
+    width: 100%;
+    justify-content: center;
+    font-size: 1.8rem;
+    text-align: center;
+  }
+  .header-contact {
+    width: 100%;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  .header-phone {
+    font-size: 1.05rem;
+  }
+  .header-contact .btn {
+    padding: 10px 22px;
+    font-size: 0.95rem;
+  }
   .hero .container { flex-direction: column; text-align: center; }
   .hero-form-box { width: 100%; padding: 1.5rem; }
   .split-section { flex-direction: column; gap: 4rem; padding: 4rem 0; text-align: center; }
@@ -550,6 +581,30 @@ footer {
   .nav-links { display: none; } /* Simple hiding for demo */
   .services-grid { grid-template-columns: 1fr; }
   .ghl-iframe { height: 800px !important; }
+}
+
+@media (max-width: 600px) {
+  .top-bar .container {
+    line-height: 1.4;
+  }
+  nav.container {
+    gap: 0.6rem;
+  }
+  .logo {
+    font-size: 1.5rem;
+  }
+  .header-phone-wrapper svg {
+    width: 18px;
+    height: 18px;
+  }
+  .header-phone {
+    font-size: 0.95rem;
+  }
+  .header-contact .btn {
+    width: 100%;
+    max-width: 220px;
+    text-align: center;
+  }
 }
 
 /* REVEAL ANIMATIONS */
